@@ -24,7 +24,7 @@ export default class App extends React.Component {
           <TouchableHighlight
             style={Styles.button}
             onPress={() => this.letsGo(this.props)}
-            underlayColor='#558780'>
+            underlayColor='#009688'>
             <Text style={[Styles.buttonText]}>Tua Ra!</Text>
           </TouchableHighlight>
         </View>

@@ -5,7 +5,7 @@ const SCREEN_WIDTH = Dimensions.get('window').width;
 const Styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000',
+        backgroundColor: '#2a2a2a',
         alignItems: 'center',
         justifyContent: 'center',
     },
@@ -19,13 +19,13 @@ const Styles = StyleSheet.create({
         marginBottom: 10,
         paddingTop: 20,
         paddingBottom: 20,
-        backgroundColor: '#009688',
+        backgroundColor: '#2a2a2a',
         borderRadius: 10,
         borderWidth: 1,
         borderColor: '#009688'
     },
     buttonText: {
-        color: '#fff',
+        color: '#009688',
         textAlign: 'center',
     },
     contentContainer: {
